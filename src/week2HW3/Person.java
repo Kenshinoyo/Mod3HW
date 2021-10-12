@@ -1,9 +1,12 @@
 package week2HW3;
+import java.util.Scanner;
 
 public class Person {
 	
 	// - Class needs to have a parameterized constructor
-	String fName;
+	Scanner userScan = new Scanner(System.in);
+	
+	String fName = userScan.next();
 	String lName;
 	int age;
 	char gender;
@@ -70,6 +73,8 @@ public class Person {
 		System.out.println("---------------------------");
 		System.out.println("Name: " + obj.fName);
 	}
+	
+//	Scanner userScan = new Scanner(System.in);
 	
 	
 
