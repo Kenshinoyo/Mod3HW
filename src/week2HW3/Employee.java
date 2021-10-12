@@ -17,6 +17,7 @@ public class Employee extends Person {
 		totalE++;
 	}
 	
+	// "Auxiliary" constructors to compensate for any employee obj created with "missing information"
 	Employee(int eID, String fName, String lName, int age, char gender, String address) 
 	{
 		super(fName, lName, age, gender, address);
