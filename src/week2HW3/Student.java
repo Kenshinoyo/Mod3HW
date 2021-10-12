@@ -7,6 +7,8 @@ public class Student extends Person {
 	String studentMajor;
 	int studentCredits;
 	
+	static int totalStu;
+	
 	Student(int id, String fName, String lName, int age, char gender, String major, int Credits) 
 	{
 		super(fName, lName, age, gender);
@@ -14,6 +16,7 @@ public class Student extends Person {
 		studID=id;
 		studentMajor=major;
 		studentCredits=Credits;
+		totalStu++;
 		
 	}
 
