@@ -18,7 +18,7 @@ public class Person {
 	char gender;
 	String address;
 	
-	// Variable for total people
+	// Tracker for total people
 	static int totalP;
 	
 	

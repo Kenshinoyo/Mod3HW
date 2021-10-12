@@ -7,15 +7,26 @@ public class Student extends Person {
 	String studentMajor;
 	int studentCredits;
 	
+	// Tracker for total students
 	static int totalStu;
 	
-	Student(int id, String fName, String lName, int age, char gender, String major, int Credits) 
+	Student(int sID, String fName, String lName, int age, char gender, String major, int Credits) 
 	{
 		super(fName, lName, age, gender);
 		
-		studID=id;
+		studID=sID;
 		studentMajor=major;
 		studentCredits=Credits;
+		totalStu++;
+		
+	}
+	
+	Student(int sID, String fName, String lName, int age, char gender, String major) 
+	{
+		super(fName, lName, age, gender);
+		
+		studID=sID;
+		studentMajor=major;
 		totalStu++;
 		
 	}
