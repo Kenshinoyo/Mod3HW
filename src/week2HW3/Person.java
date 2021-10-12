@@ -9,11 +9,11 @@ public class Person {
 	char gender;
 	String address;
 	
-	static int total;
+	static int totalP;
 	
 	public Person()
 	{
-		total++;
+		totalP++;
 	}
 	
 	public Person(String fName, String lName, int age, char gender, String address)
@@ -23,7 +23,7 @@ public class Person {
 		this.age = age;
 		this.gender = gender;
 		this.address = address;
-		total++;
+		totalP++;
 	}
 	
 	public Person(String fName, String lName, int age, char gender)
@@ -32,7 +32,7 @@ public class Person {
 		this.lName = lName;
 		this.age = age;
 		this.gender = gender;
-		total++;
+		totalP++;
 	}
 	
 	public Person(String fName, String lName, int age)
@@ -40,14 +40,35 @@ public class Person {
 		this.fName = fName;
 		this.lName = lName;
 		this.age = age;
+		totalP++;
 	}
 	
-	public
+	public Person(String fName, String lName)
+	{
+		this.fName = fName;
+		this.lName = lName;
+		totalP++;
+	}
 	
 	public Person(String fName, int age)
 	{
 		this.fName = fName;
 		this.age = age;
+		totalP++;
+	}
+	
+	public void display()
+	{
+		System.out.println("Name: " + this.lName  + ", " + this.fName);
+		System.out.println("Age: " + this.age);
+		System.out.println("Gender: " + this.gender);
+	}
+	
+	public void display (Person obj)
+	{
+		System.out.println("Parameterized Display");
+		System.out.println("---------------------------");
+		System.out.println("Name: " + obj.fName);
 	}
 	
 	
