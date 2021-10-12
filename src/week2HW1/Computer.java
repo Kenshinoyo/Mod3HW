@@ -1,7 +1,6 @@
 package week2HW1;
 
 public class Computer {
-	
 	private String brand, model, type;
 	private int year, price = 0;
 
@@ -49,5 +48,4 @@ public class Computer {
 		// TODO Auto-generated method stub
 
 	}
-
 }

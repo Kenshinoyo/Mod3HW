@@ -2,7 +2,7 @@ package week2HW1;
 
 import java.util.Scanner;
 
-public class registerCPU {
+public class CPUDatabase {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,6 +15,7 @@ public class registerCPU {
 		switch(userInput)
 		{
 		case "PC":
+			RegisterPC()
 			
 		}
 		
@@ -22,9 +23,6 @@ public class registerCPU {
 		for(int i=0; i )
 		
 		Computer c(i) = new Computer();
-		
-		
-
 	}
 
 }
