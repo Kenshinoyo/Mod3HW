@@ -4,7 +4,7 @@ package week2HW3;
 
 public class Pesron1 {
 	
-	private String Species, Build, Birth Year;
+	private String Species, Build, BirthYear;
 	private int fullAge, weight = 0;
 	public String getSpecies() {
 		return Species;
@@ -18,11 +18,11 @@ public class Pesron1 {
 	public void setBuild(String build) {
 		Build = build;
 	}
-	public String getBirth() {
-		return Birth;
+	public String getBirthYear() {
+		return BirthYear;
 	}
-	public void setBirth(String birth) {
-		Birth = birth;
+	public void setBirthYear(String birthyear) {
+		BirthYear = birthyear;
 	}
 	public int getFullAge() {
 		return fullAge;
