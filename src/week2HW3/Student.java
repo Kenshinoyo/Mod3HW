@@ -1,4 +1,5 @@
 package week2HW3;
+import java.util.Scanner;
 
 public class Student extends Person {
 	
