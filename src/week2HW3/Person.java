@@ -13,10 +13,10 @@ public class Person {
 	
 	// Constructor parameters
 	String fName = userScan.next();
-	String lName;
-	int age;
+	String lName = userScan.next();
+	int age = userScan.nextInt();
 	char gender;
-	String address;
+	String address = userScan.next();
 	
 	// Tracker for total people
 	static int totalP;
@@ -30,8 +30,13 @@ public class Person {
 	
 	public Person(String fName, String lName, int age, char gender, String address)
 	{
+		System.out.println("Please enter the person's first name: ");
 		this.fName = fName;
+		
+		System.out.println("Please enter the person's last name: ");
 		this.lName = lName;
+		
+		System.out.println("Please enter the person's age: ");
 		this.age = age;
 		this.gender = gender;
 		this.address = address;

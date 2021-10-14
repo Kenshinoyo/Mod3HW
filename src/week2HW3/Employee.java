@@ -2,8 +2,8 @@ package week2HW3;
 
 public class Employee extends Person {
 	
-	int badgeNum;
-	String department;
+	int badgeNum = userScan.nextInt();
+	String department = userScan.next();
 	
 	// Tracker for total employees
 	static int totalE;
